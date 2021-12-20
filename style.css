@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+li{
+    list-style: none;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*HELPER*/
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*****
+    HEADER
+        *****/
+header{
+    background: url('img/jumbo.png');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.container-center{
+    max-width: 950px;
+    margin: auto;
+}
+
+/***
+    ROW-NAV
+        ***/
+.row{
+    width: 100%;
+    position: sticky;
+    top:0;
+}
+.row .col-1{
+    float: left;
+    min-width: 20%;
+    line-height: 80px;
+}
+.row .col-2{
+    float: left;
+    min-width: 60%;
+    line-height: 80px;
+}
+.logo{
+    width: 140px;
+    height: 80px;
+    float: left;
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding:10px;
+    color: white;
+    font-weight: 600;
+}
+
+.row .accedi{
+    text-align: right;
+}
+.row .accedi a{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/***
+
+    ***/
+header .Header-Text{
+    text-align:center;
+    color: white;
+    width: 80%;
+    margin: 40px auto;
+}
+header .Header-Text p{
+    padding:50px 0;
+}
+
+header .Header-Text span{
+    padding: 30px;
+}
+header .Header-Text span a{
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+
+header .Header-Text span a.black{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+
+
+
+
+
+
+
