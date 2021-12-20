@@ -52,22 +52,20 @@ header{
 /***
     ROW-NAV
         ***/
-.row{
+header .row{
     width: 100%;
-    position: sticky;
-    top:0;
 }
-.row .col-1{
+header .row .col-1{
     float: left;
     min-width: 20%;
     line-height: 80px;
 }
-.row .col-2{
+header .row .col-2{
     float: left;
     min-width: 60%;
     line-height: 80px;
 }
-.logo{
+header .logo{
     width: 140px;
     height: 80px;
     float: left;
@@ -212,8 +210,83 @@ main .last-section a{
     border-radius: 30px;
 }
 
+/****
+    FOOTER
+        ****/
+
+footer{
+    background-color: #23272A;
+}
+
+footer .row{
+    width: 100%;
+    padding: 60px 0;
+}    
+
+footer .col-big{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+footer .col-small{
+    width: 15%;
+    float:left;
+    margin-right: 2.5%;
+}
+
+footer .col-small:nth-child(5){
+    margin-right: 0;
+}
 
 
+footer .col-big .select-img img{
+    width: 20px;
+}
 
+footer .col-big .select-img select{
+    background-color: #23272A;
+    color: white;
+    border:none;
+    display: inline-block;
+}
+
+footer h2{
+    color: #7289DA;
+    padding-bottom:20px;
+}
+
+footer a{
+    color: white;
+    padding: 10px;
+}
+
+footer h3{
+    color: #7289DA;
+}
+
+footer ul li{
+    padding: 8px 0;
+    color: white;
+}
+
+/*Ultima riga del footer*/
+footer .footer__foot{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+footer .footer__foot img{
+    float:left;
+}
+
+footer .footer__foot a{
+    float: right;
+    background-color: #8EA1E1;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
 
 
