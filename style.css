@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+p{
+    font-weight: 600;
+}
 h1{
     font-size: 50px;
 }
@@ -15,7 +21,7 @@ li{
     list-style: none;
 }
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
 /*HELPER*/
 .mgb-10{margin-bottom: 10px;}
@@ -129,7 +135,7 @@ main section{
 }
 
 main section:nth-child(2n){
-    background-color: #ccc;
+    background-color: #F6F6F6;
 }
 /**Immagine a sinistra testo a destra**/
 main .first-section .image{
@@ -172,7 +178,39 @@ main .second-section .image-text{
     width: 35%;
 }
 
+/**ULTIMA SECTION**/
+main .last-section h1{
+    font-size: 45px;
+    text-align:center;
+}
 
+main .last-section p{
+    text-align:center;
+}
+
+main .last-section img{
+    width: 100%;
+}
+
+main .last-section h2{
+    text-align:center;
+    background: url(img/stars.svg);
+    background-position: center;
+    padding: 15px;
+    
+}
+
+main .last-section div{
+    text-align: center;
+}
+main .last-section a{
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 30px;
+}
 
 
 
