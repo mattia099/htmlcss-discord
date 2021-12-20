@@ -18,7 +18,10 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*HELPER*/
-
+.mgb-10{margin-bottom: 10px;}
+.mgb-20{margin-bottom: 20px;}
+.mgb-30{margin-bottom: 30px;}
+.mgb-40{margin-bottom: 40px;}
 .clearfix{
     content: '';
     display: table;
@@ -30,7 +33,6 @@ html{
         *****/
 header{
     background: url('img/jumbo.png');
-    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -86,6 +88,10 @@ header ul li a{
     border-radius: 20px;
 }
 
+.buttons{
+    padding: 80px;
+}
+
 /***
 
     ***/
@@ -99,19 +105,71 @@ header .Header-Text p{
     padding:50px 0;
 }
 
-header .Header-Text span{
+header .Header-Text div{
     padding: 30px;
+    display: inline-block;
 }
-header .Header-Text span a{
+header .Header-Text div a{
     padding: 20px;
     background-color: white;
     border-radius: 50px;
     color: black;
 }
 
-header .Header-Text span a.black{
+header .Header-Text div a.black{
     background-color: rgb(31, 31, 31);
     color: white;
+}
+
+/***
+    MAIN
+        ***/
+main section{
+    padding: 40px 0;
+}
+
+main section:nth-child(2n){
+    background-color: #ccc;
+}
+/**Immagine a sinistra testo a destra**/
+main .first-section .image{
+    display: inline-block;  
+    float: left;
+    max-width: 60%;
+    height: 100%;
+    
+}
+main .first-section .image img{
+    width: 100%;
+}
+
+main .first-section .image-text{
+    display: inline-block;
+    float: right;
+    width: 35%;
+}
+
+main .image-text h1{
+    padding-bottom: 20px;
+}
+
+/**Testo a sinistra immagine a destra**/
+
+main .second-section .image{
+    display: inline-block;  
+    float: right;
+    max-width: 60%;
+    height: 100%;
+}
+
+main .first-section .image img{
+    width: 100%;
+}
+
+main .second-section .image-text{
+    display: inline-block;
+    float: left;
+    width: 35%;
 }
 
 
